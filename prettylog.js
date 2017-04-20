@@ -11,7 +11,7 @@ var logTypes = {
 }
 
 
-console.whackylog = function(log,logType,logTheme){
+console.prettylog = function(log,logType,logTheme){
 	
 	// default theme when no theme value is passed
 	if (typeof logTheme == 'undefined')
